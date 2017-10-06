@@ -12,6 +12,13 @@
 		840B91CA1F87C903002CCFB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840B91C81F87C903002CCFB2 /* Main.storyboard */; };
 		840B91CC1F87C903002CCFB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840B91CB1F87C903002CCFB2 /* Assets.xcassets */; };
 		840B91CF1F87C903002CCFB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840B91CD1F87C903002CCFB2 /* LaunchScreen.storyboard */; };
+		840B91DF1F87C9F2002CCFB2 /* SpinWheelWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B91D71F87C9F0002CCFB2 /* SpinWheelWedge.swift */; };
+		840B91E01F87C9F3002CCFB2 /* Degrees+MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B91D81F87C9F1002CCFB2 /* Degrees+MathMethods.swift */; };
+		840B91E11F87C9F3002CCFB2 /* SpinWheelControlDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B91D91F87C9F1002CCFB2 /* SpinWheelControlDataSource.swift */; };
+		840B91E21F87C9F3002CCFB2 /* SpinWheelWedgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B91DA1F87C9F1002CCFB2 /* SpinWheelWedgeLabel.swift */; };
+		840B91E31F87C9F3002CCFB2 /* SpinWheelWedgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B91DB1F87C9F1002CCFB2 /* SpinWheelWedgeShape.swift */; };
+		840B91E41F87C9F3002CCFB2 /* SpinWheelControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B91DC1F87C9F2002CCFB2 /* SpinWheelControl.swift */; };
+		840B91E51F87C9F3002CCFB2 /* SpinWheelControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B91DE1F87C9F2002CCFB2 /* SpinWheelControlDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		840B91CB1F87C903002CCFB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840B91CE1F87C903002CCFB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840B91D01F87C903002CCFB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840B91D61F87C917002CCFB2 /* Spinner */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Spinner; sourceTree = "<group>"; };
+		840B91D71F87C9F0002CCFB2 /* SpinWheelWedge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelWedge.swift; sourceTree = "<group>"; };
+		840B91D81F87C9F1002CCFB2 /* Degrees+MathMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Degrees+MathMethods.swift"; sourceTree = "<group>"; };
+		840B91D91F87C9F1002CCFB2 /* SpinWheelControlDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelControlDataSource.swift; sourceTree = "<group>"; };
+		840B91DA1F87C9F1002CCFB2 /* SpinWheelWedgeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelWedgeLabel.swift; sourceTree = "<group>"; };
+		840B91DB1F87C9F1002CCFB2 /* SpinWheelWedgeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelWedgeShape.swift; sourceTree = "<group>"; };
+		840B91DC1F87C9F2002CCFB2 /* SpinWheelControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelControl.swift; sourceTree = "<group>"; };
+		840B91DD1F87C9F2002CCFB2 /* SpinWheelControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpinWheelControl.h; sourceTree = "<group>"; };
+		840B91DE1F87C9F2002CCFB2 /* SpinWheelControlDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinWheelControlDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,15 @@
 				840B91CB1F87C903002CCFB2 /* Assets.xcassets */,
 				840B91CD1F87C903002CCFB2 /* LaunchScreen.storyboard */,
 				840B91D01F87C903002CCFB2 /* Info.plist */,
+				840B91D81F87C9F1002CCFB2 /* Degrees+MathMethods.swift */,
+				840B91DD1F87C9F2002CCFB2 /* SpinWheelControl.h */,
+				840B91DC1F87C9F2002CCFB2 /* SpinWheelControl.swift */,
+				840B91D91F87C9F1002CCFB2 /* SpinWheelControlDataSource.swift */,
+				840B91DE1F87C9F2002CCFB2 /* SpinWheelControlDelegate.swift */,
+				840B91D71F87C9F0002CCFB2 /* SpinWheelWedge.swift */,
+				840B91DA1F87C9F1002CCFB2 /* SpinWheelWedgeLabel.swift */,
+				840B91DB1F87C9F1002CCFB2 /* SpinWheelWedgeShape.swift */,
+				840B91D61F87C917002CCFB2 /* Spinner */,
 			);
 			path = SpinningWheelWithTappableButtons;
 			sourceTree = "<group>";
@@ -136,8 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840B91E01F87C9F3002CCFB2 /* Degrees+MathMethods.swift in Sources */,
+				840B91E41F87C9F3002CCFB2 /* SpinWheelControl.swift in Sources */,
 				840B91C71F87C903002CCFB2 /* ViewController.swift in Sources */,
 				840B91C51F87C903002CCFB2 /* AppDelegate.swift in Sources */,
+				840B91E51F87C9F3002CCFB2 /* SpinWheelControlDelegate.swift in Sources */,
+				840B91E21F87C9F3002CCFB2 /* SpinWheelWedgeLabel.swift in Sources */,
+				840B91DF1F87C9F2002CCFB2 /* SpinWheelWedge.swift in Sources */,
+				840B91E31F87C9F3002CCFB2 /* SpinWheelWedgeShape.swift in Sources */,
+				840B91E11F87C9F3002CCFB2 /* SpinWheelControlDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
