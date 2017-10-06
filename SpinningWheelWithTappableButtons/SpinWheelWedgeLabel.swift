@@ -18,7 +18,7 @@ class SpinWheelWedgeButton: TornadoButton {
         self.addTarget(self, action: #selector(pressed(_:)), for: .touchUpInside)
     }
     @IBAction func pressed(_ sender: TornadoButton){
-        print("If you see this you won")
+        print("If you see this you won!")
     }
 }
 
