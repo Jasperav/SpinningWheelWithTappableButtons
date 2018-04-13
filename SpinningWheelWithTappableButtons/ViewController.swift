@@ -16,7 +16,7 @@ class TornadoButton: UIButton{
         let pres = self.layer.presentation()!
         let suppt = self.convert(point, to: self.superview!)
         return (pres.hitTest(suppt)) != nil
-    }
+    }sdsadasds
 }
 
 extension ViewController: SpinWheelControlDelegate, SpinWheelControlDataSource{
